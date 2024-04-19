@@ -1,0 +1,18 @@
+header, footer {
+    background-color:black;
+    color: white;
+    width: 1252px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 500px;
+    grid-template-columns: 250px 1fr;
+    grid-template-areas: 
+    "header"
+    "aside";
+}
+  
+main {
+    background-color: white;
+}
